@@ -14,9 +14,9 @@ export default function Menu() {
     <section id="menu" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-4">Our Menu</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-4">Nuestro Menú</h2>
           <p className="text-brand-gray text-lg max-w-2xl mx-auto">
-            A culinary journey through Latin America, cooked over open flames using sustainable wood and locally sourced ingredients.
+            Un viaje culinario por Latinoamérica, cocinado sobre fuego vivo con leña sostenible e ingredientes de origen local.
           </p>
         </div>
 
@@ -57,9 +57,9 @@ function MenuItemCard({ item }: { item: Dish }) {
             {item.name}
           </h3>
           <div className="flex gap-1">
-            {item.tags?.includes('Signature') && <Flame size={16} className="text-brand-coral fill-brand-coral" aria-label="Signature Dish" />}
-            {item.tags?.includes('V') && <Leaf size={16} className="text-brand-teal" aria-label="Vegetarian" />}
-            {item.tags?.includes('GF') && <WheatOff size={16} className="text-brand-amber" aria-label="Gluten Free" />}
+            {item.tags?.includes('Signature') && <Flame size={16} className="text-brand-coral fill-brand-coral" aria-label="Plato Estrella" />}
+            {item.tags?.includes('V') && <Leaf size={16} className="text-brand-teal" aria-label="Vegetariano" />}
+            {item.tags?.includes('GF') && <WheatOff size={16} className="text-brand-amber" aria-label="Sin Gluten" />}
           </div>
         </div>
         <p className="text-brand-gray text-sm md:text-base leading-relaxed">

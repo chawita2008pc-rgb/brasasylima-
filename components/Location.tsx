@@ -7,10 +7,10 @@ export default function Location() {
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
         {/* Info Column */}
         <div>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-6">Visit Us</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-6">Visítanos</h2>
           <p className="text-brand-gray text-lg mb-8 leading-relaxed">
-            Nestled in the heart of Palermo Soho, surrounded by vibrant street art and cobblestone streets. 
-            Brasa & Lima brings the warmth of a traditional parrilla with a modern, cosmopolitan twist.
+            En el corazón de Palermo Soho, rodeado de arte urbano y adoquines.
+            Brasa & Lima trae el calor de una parrilla tradicional con un giro moderno y cosmopolita.
           </p>
 
           <div className="space-y-6">
@@ -19,7 +19,7 @@ export default function Location() {
                 <MapPin size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-brand-dark text-lg">Address</h4>
+                <h4 className="font-bold text-brand-dark text-lg">Dirección</h4>
                 <p className="text-gray-600">Costa Rica 4000, Palermo Soho</p>
                 <p className="text-gray-600">Buenos Aires, C1414</p>
               </div>
@@ -30,16 +30,16 @@ export default function Location() {
                 <Clock size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-brand-dark text-lg">Opening Hours</h4>
+                <h4 className="font-bold text-brand-dark text-lg">Horarios</h4>
                 <div className="grid grid-cols-2 gap-x-8 text-gray-600">
-                  <span>Tue - Thu:</span>
+                  <span>Mar - Jue:</span>
                   <span>19:00 - 00:00</span>
-                  <span>Fri - Sat:</span>
+                  <span>Vie - Sáb:</span>
                   <span>19:00 - 02:00</span>
-                  <span>Sun:</span>
+                  <span>Dom:</span>
                   <span>12:00 - 16:00</span>
-                  <span>Mon:</span>
-                  <span className="text-brand-coral font-medium">Closed</span>
+                  <span>Lun:</span>
+                  <span className="text-brand-coral font-medium">Cerrado</span>
                 </div>
               </div>
             </div>
@@ -49,11 +49,11 @@ export default function Location() {
                 <Car size={24} />
               </div>
               <div>
-                <h4 className="font-bold text-brand-dark text-lg">Arrival</h4>
+                <h4 className="font-bold text-brand-dark text-lg">Cómo Llegar</h4>
                 <p className="text-gray-600 text-sm">
-                  Valet parking available Fri-Sat. Several paid parking lots on Thames St.
+                  Valet parking disponible Vie-Sáb. Varios estacionamientos pagos en Thames.
                   <br />
-                  <span className="flex items-center gap-1 mt-1"><Bus size={14}/> Bus lines: 34, 39, 55, 111, 166</span>
+                  <span className="flex items-center gap-1 mt-1"><Bus size={14}/> Líneas de colectivo: 34, 39, 55, 111, 166</span>
                 </p>
               </div>
             </div>
@@ -74,12 +74,12 @@ export default function Location() {
           {/* Placeholder Map Image */}
           <img 
             src="https://picsum.photos/800/800?random=map" 
-            alt="Map location in Palermo" 
+            alt="Ubicación en el mapa de Palermo"
             className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
           />
           <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
              <div className="bg-white/90 px-6 py-3 rounded-lg shadow-xl text-brand-dark font-bold text-center">
-               <span className="text-brand-coral">●</span> We are here
+               <span className="text-brand-coral">●</span> Estamos aquí
              </div>
           </div>
           <a 
@@ -88,7 +88,7 @@ export default function Location() {
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4 bg-white text-brand-dark px-4 py-2 rounded-lg text-sm font-semibold shadow-md hover:bg-gray-50 transition-colors"
           >
-            Open in Google Maps
+            Abrir en Google Maps
           </a>
         </div>
       </div>

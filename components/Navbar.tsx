@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
 const LINKS = [
-  { name: 'Menu', href: '#menu' },
-  { name: 'Gallery', href: '#gallery' },
-  { name: 'Reviews', href: '#reviews' },
-  { name: 'Location', href: '#location' },
-  { name: 'FAQ', href: '#faq' },
+  { name: 'Menú', href: '#menu' },
+  { name: 'Galería', href: '#gallery' },
+  { name: 'Reseñas', href: '#reviews' },
+  { name: 'Ubicación', href: '#location' },
+  { name: 'Preguntas', href: '#faq' },
 ];
 
 export default function Navbar() {
@@ -69,15 +69,15 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="bg-brand-coral text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-red-500 transition-all hover:shadow-lg transform hover:-translate-y-0.5"
           >
-            Book Table
+            Reservar Mesa
           </a>
         </div>
 
         {/* Mobile Toggle */}
-        <button 
+        <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-brand-dark p-2 focus:outline-none"
-          aria-label="Toggle menu"
+          aria-label="Abrir menú"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -102,7 +102,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="bg-brand-coral text-white text-center py-3 rounded-xl font-bold mt-2"
           >
-            Reserve Now
+            Reservar Ahora
           </a>
         </div>
       </div>

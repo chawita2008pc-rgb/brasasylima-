@@ -21,7 +21,7 @@ export default function Reviews() {
 
       <div className="max-w-4xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
-          <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Guest Love</h2>
+          <h2 className="font-display text-4xl md:text-5xl font-bold mb-4">Lo Que Dicen Nuestros Clientes</h2>
           <div className="flex justify-center gap-1">
             {[1, 2, 3, 4, 5].map((s) => (
               <Star key={s} size={24} className="fill-brand-amber text-brand-amber" />
@@ -49,14 +49,14 @@ export default function Reviews() {
             <button 
               onClick={prevReview}
               className="p-3 rounded-full bg-white/10 hover:bg-white/20 transition-all text-white border border-white/10"
-              aria-label="Previous Review"
+              aria-label="Reseña anterior"
             >
               <ChevronLeft size={24} />
             </button>
             <button 
               onClick={nextReview}
               className="p-3 rounded-full bg-brand-coral hover:bg-red-500 transition-all text-white shadow-lg shadow-brand-coral/20"
-              aria-label="Next Review"
+              aria-label="Siguiente reseña"
             >
               <ChevronRight size={24} />
             </button>

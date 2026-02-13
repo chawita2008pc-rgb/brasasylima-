@@ -11,7 +11,7 @@ export default function Footer() {
             BRASA <span className="text-brand-coral">&</span> LIMA
           </h3>
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Brasa & Lima. All rights reserved.
+            © {new Date().getFullYear()} Brasa & Lima. Todos los derechos reservados.
           </p>
         </div>
 
@@ -28,8 +28,8 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-8 text-sm text-gray-400">
-          <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-          <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
+          <a href="#" className="hover:text-white transition-colors">Política de Privacidad</a>
+          <a href="#" className="hover:text-white transition-colors">Términos de Servicio</a>
         </div>
       </div>
     </footer>

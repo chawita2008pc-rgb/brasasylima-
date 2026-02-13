@@ -13,10 +13,10 @@ export default function FloatingCTA() {
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:shadow-[#25d366]/40 group"
-        aria-label="Book via WhatsApp"
+        aria-label="Reservar por WhatsApp"
       >
         <span className="absolute right-full mr-4 bg-white text-brand-dark px-3 py-1 rounded-lg text-sm font-medium shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap hidden md:block">
-          Reserve Table
+          Reservar Mesa
         </span>
         
         {/* Pulse Effect */}

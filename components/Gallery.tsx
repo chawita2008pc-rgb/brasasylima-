@@ -37,8 +37,8 @@ export default function Gallery() {
     <section id="gallery" className="py-24 bg-brand-light">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-4">The Experience</h2>
-          <p className="text-brand-gray">A glimpse into our world of flavor and design.</p>
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-4">La Experiencia</h2>
+          <p className="text-brand-gray">Un vistazo a nuestro mundo de sabor y diseño.</p>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

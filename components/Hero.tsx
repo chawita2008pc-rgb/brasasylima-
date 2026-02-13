@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img 
           src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?q=80&w=1920&auto=format&fit=crop" 
-          alt="Fire grill and nature atmosphere" 
+          alt="Parrilla y ambiente natural"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-brand-dark/90" />
@@ -37,10 +37,10 @@ export default function Hero() {
           Palermo, Buenos Aires
         </span>
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
-          Fire, Passion <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-coral to-brand-amber">& Flavor</span>
+          Fuego, Pasión <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-coral to-brand-amber">& Sabor</span>
         </h1>
         <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">
-          Modern Latin cuisine where the primitive art of fire meets contemporary craft cocktails.
+          Cocina latina moderna donde el arte primitivo del fuego se encuentra con cócteles artesanales contemporáneos.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
@@ -48,7 +48,7 @@ export default function Hero() {
             onClick={handleMenuClick}
             className="bg-brand-coral text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-red-500 transition-all hover:scale-105 shadow-lg shadow-brand-coral/30 cursor-pointer"
           >
-            View Menu
+            Ver Menú
           </a>
           <a 
             href="https://wa.me/5491160022197"
@@ -56,7 +56,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition-all cursor-pointer"
           >
-            Book Table
+            Reservar Mesa
           </a>
         </div>
       </div>
