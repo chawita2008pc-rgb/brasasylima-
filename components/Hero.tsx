@@ -39,7 +39,7 @@ export default function Hero() {
         <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6 leading-tight">
           Fuego, Pasión <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-coral to-brand-amber">Y Sabor</span>
         </h1>
-        <p className="text-gray-200 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light">
+        <p className="text-gray-200 text-xl md:text-2xl max-w-2xl mx-auto mb-10 font-elegant italic font-medium tracking-wide">
           Cocina latina moderna donde el arte primitivo del fuego se encuentra con cócteles artesanales contemporáneos.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
