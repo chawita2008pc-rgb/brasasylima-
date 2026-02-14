@@ -10,7 +10,7 @@ export default function Location() {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-brand-dark mb-6">Visítanos</h2>
           <p className="text-brand-gray text-lg mb-8 leading-relaxed">
             En el corazón de Palermo Soho, rodeado de arte urbano y adoquines.
-            Brasa & Lima trae el calor de una parrilla tradicional con un giro moderno y cosmopolita.
+            Brasas y Lima trae el calor de una parrilla tradicional con un giro moderno y cosmopolita.
           </p>
 
           <div className="space-y-6">

@@ -8,10 +8,10 @@ export default function Footer() {
         
         <div className="text-center md:text-left">
           <h3 className="font-display text-2xl font-bold tracking-tight mb-2">
-            BRASA <span className="text-brand-coral">&</span> LIMA
+            BRASAS <span className="text-brand-coral">Y</span> LIMA
           </h3>
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Brasa & Lima. Todos los derechos reservados.
+            © {new Date().getFullYear()} Brasas y Lima. Todos los derechos reservados.
           </p>
         </div>
 

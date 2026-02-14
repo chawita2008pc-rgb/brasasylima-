@@ -48,7 +48,7 @@ export default function Navbar() {
           onClick={(e) => handleNavClick(e, '#root')}
           className="font-display text-2xl font-bold tracking-tight text-brand-dark hover:text-brand-coral transition-colors"
         >
-          BRASA <span className="text-brand-coral">Y</span> LIMA
+          BRASAS <span className="text-brand-coral">Y</span> LIMA
         </a>
 
         {/* Desktop Nav */}
