@@ -83,7 +83,7 @@ export default function Location() {
              </div>
           </div>
           <a 
-            href="https://goo.gl/maps/placeholder" 
+            href="https://www.google.com.ar/maps/place/El+Burladero/@-34.5913456,-58.399252,17z/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4 bg-white text-brand-dark px-4 py-2 rounded-lg text-sm font-semibold shadow-md hover:bg-gray-50 transition-colors"
