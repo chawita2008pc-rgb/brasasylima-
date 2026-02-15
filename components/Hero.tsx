@@ -23,9 +23,9 @@ export default function Hero() {
     <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?q=80&w=1920&auto=format&fit=crop" 
-          alt="Parrilla y ambiente natural"
+        <img
+          src="/hero.png"
+          alt="OMS Group"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-brand-dark/90" />
