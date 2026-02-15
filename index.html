@@ -2,9 +2,10 @@
 <html lang="es" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brasas y Lima | Cocina Latina a la Parrilla</title>
     <meta name="description" content="Viví la mejor experiencia de carnes a la parrilla y cócteles artesanales en Palermo, Buenos Aires. Reservá tu mesa en Brasas y Lima hoy." />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://unpkg.com https://esm.sh; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.tailwindcss.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://images.unsplash.com https://picsum.photos data:; connect-src 'self' https://esm.sh https://*.elevenlabs.io wss://*.elevenlabs.io; frame-src 'none'; object-src 'none';" />
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -103,7 +104,7 @@
   <body class="bg-brand-cream text-brand-dark antialiased selection:bg-brand-coral selection:text-white">
     <div id="root"></div>
     <!-- ElevenLabs Convai Widget Element -->
-    <elevenlabs-convai agent-id="agent_4201khanddm8e6v952ha8szta0f1" allow-text></elevenlabs-convai>
+    <elevenlabs-convai agent-id="%VITE_ELEVENLABS_AGENT_ID%" allow-text></elevenlabs-convai>
   <script type="module" src="/index.tsx"></script>
 </body>
 </html>

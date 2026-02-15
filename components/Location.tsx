@@ -59,8 +59,8 @@ export default function Location() {
             </div>
             
             <div className="pt-6 flex gap-4">
-               <a href="mailto:reservations@brasalima.com" className="flex items-center gap-2 text-brand-gray hover:text-brand-coral transition-colors">
-                  <Mail size={18} /> reservations@brasalima.com
+               <a href={`mailto:${'reservations'}@${'brasalima.com'}`} className="flex items-center gap-2 text-brand-gray hover:text-brand-coral transition-colors">
+                  <Mail size={18} /> {'reservations'}&#64;{'brasalima.com'}
                </a>
                <a href="tel:+5491160022197" className="flex items-center gap-2 text-brand-gray hover:text-brand-coral transition-colors">
                   <Phone size={18} /> +54 9 11 6002 2197
